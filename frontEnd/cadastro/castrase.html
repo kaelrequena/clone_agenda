@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Cadastra-se</title>
+        <link rel="stylesheet" href="../../resource/css/style.css">
+    </head>
+    <body> 
+        <div class="containerInputs">
+            <div class="groupTitles">
+                <img class="logolista" src="../../assets/logo/agenda (1).png" alt="lista">
+            </div>
+            <h2>Cadastra-se</h2>
+            <div class="groupinputs">
+                <form action="../backEnd/dadosLogin.php" method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="nome" placeholder="Seu nome aqui..." maxlength="50">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="joao@teste.com">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="******" maxlength="10">
+                    <label for="confirmPassword">Confirme senha</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="******" maxlength="10">
+                    <button type="submit" class="btnLogin">Cadastrar-se</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

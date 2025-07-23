@@ -1,0 +1,109 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+coverage/
+.expo/
+.expo-shared/
+
+# React Native
+android/.gradle
+android/app/build/
+ios/Pods/
+ios/build/
+*.keystore
+*.jks
+
+# Webpack / Vite / Expo
+.cache/
+*.expo
+
+# Babel
+.babel-cache/
+babel-cache.json
+
+# VSCode
+.vscode/
+.history/
+
+# Mac/Linux hidden files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.gz
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs
+.idea/
+*.iml
+
+# Test coverage
+coverage/
+
+# Firebase / Capacitor / Cordova
+firebase-debug.log
+www/
+platforms/
+plugins/
+
+# Lint cache
+.eslintcache
+
+# Git conflicts
+*.orig
+
+# Expo
+.expo/
+.expo-shared/
+
+# Misc
+yarn-error.log
+npm-debug.log
+*.tgz
+package-lock.json
+.pnpm-debug.log
+*.local
+
+# Optional: Ignore generated SQLite DBs
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: Ignore images/assets you don't want to commit
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.gif

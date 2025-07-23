@@ -1,0 +1,15 @@
+{
+    "name": "kael/back-end",
+    "autoload": {
+        "psr-4": {
+            "Kael\\BackEnd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kael Requena",
+            "email": "kael13@hotmail.com"
+        }
+    ],
+    "require": {}
+}
