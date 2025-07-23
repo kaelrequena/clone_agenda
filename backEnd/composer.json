@@ -2,7 +2,7 @@
     "name": "kael/back-end",
     "autoload": {
         "psr-4": {
-            "Kael\\BackEnd\\": "src/"
+            "app\\":"app"
         }
     },
     "authors": [

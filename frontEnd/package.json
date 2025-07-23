@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "live-server":"live-server"
+    "live-server": "live-server"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "sweetalert2": "^11.22.2"
   }
 }
